@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">"تذكير بشرب الماء"</string>
+
+    <!-- Strings for the MainActivity -->
+    <string name="instructions">
+        اضغط على الكوب بعد الشرب.</string>
+    <string name="water_increment_content_desc">اضغط لتسجيل شرب الماء</string>
+    <string name="charging_plug_content_desc">صورة الشحن</string>
+
+    <string name="default_water_count">0</string>
+    <string name="default_charge_notification_count">التذكيربشرب الماءأثناءالشحن أُرسل0مرة</string>
+
+    <plurals name="charge_notification_count">
+        <item quantity="zero">التذكيربشرب الماءأثناءالشحن أُرسل%dمرة</item>
+        <item quantity="one">التذكيربشرب الماءأثناءالشحن أُرسل%dمرة</item>
+        <item quantity="two">التذكيربشرب الماءأثناءالشحن أُرسل%dمرة</item>
+        <item quantity="few">التذكيربشرب الماءأثناءالشحن أُرسل%dمرة</item>
+        <item quantity="many">التذكيربشرب الماءأثناءالشحن أُرسل%dمرة</item>
+    </plurals>
+
+
+    <!-- Strings for Notifications and Toasts -->
+    <string name="water_chug_toast">بلوب بلوب بلوب</string>
+
+    <string name="charging_reminder_notification_title">الجهاز يشحن - أين الماء؟</string>
+    <string name="charging_reminder_notification_body">لا يوجد وقت أفضل من شرب الماء من الوقت الذى تعلم أن هاتفك يشحن فيه. إشرب !</string>
+    <string name="main_notification_channel_name">أساسى</string>
+
+</resources>
